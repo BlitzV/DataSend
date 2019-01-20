@@ -22,7 +22,7 @@ public class ActivityReceiver extends AppCompatActivity {
 
         if (bundle!=null){
             String info = bundle.getString("INFO");
-            textView.setText(info);
+            textView.setText(info); //
         }
     }
 }
